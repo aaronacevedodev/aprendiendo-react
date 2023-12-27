@@ -24,6 +24,6 @@ export function TwitterFollowCard ({ userName, name, isFollowing }){
                     Seguir
                 </button>
             </aside>
-        </article>
+        </article> 
     )
 }
