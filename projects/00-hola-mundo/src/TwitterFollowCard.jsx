@@ -1,7 +1,7 @@
 import { useState } from "react"
 
-export function TwitterFollowCard ({ userName = 'unknown', name }){
-    const [isFollowing, setIsFollowing] = useState(false)
+export function TwitterFollowCard ({ userName, name, initialIsFollowing }){
+    const [isFollowing, setIsFollowing] = useState(initialIsFollowing)
     const imageSrc = `https://unavatar.io/${userName}`
 
     // Controlar ESTADOS dependiendo si el prop isFollowing = "true" / "false"
